@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 blobs = open("blobs.txt")
@@ -10,7 +9,7 @@ user_pass = blobs.readline()
 user_badpass = blobs.readline()
 blobs.close()
 
-driver = webdriver.Chrome("C:\\Users\\Sam\\Downloads\\chromedriver_win32\\chromedriver.exe")
+driver = webdriver.Chrome()
 
 
 def title_check_enter(user, passwd, expected_title):  # checks that the login works properly when enter is pressed
