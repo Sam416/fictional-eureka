@@ -1,3 +1,0 @@
-samuel.j.korth-1@ou.edu
-testpass1
-badpass1
