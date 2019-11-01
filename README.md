@@ -15,3 +15,5 @@ named "blobs.txt" in the following format:
  input and an incorrect input. To do this, it merely checks the page
  title after the action is performed. If there is no output, the tests 
  completed successfully.
+ 
+ To run, simply run the .py script on a python console.
